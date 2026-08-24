@@ -69,7 +69,56 @@
       "faceEnrolled": true
     }
   ],
-  "attendance": [],
+  "attendance": [
+    {
+      "id": 1,
+      "employeeId": 1003,
+      "employeeName": "Ananya Rao",
+      "date": "2026-08-12",
+      "punchIn": "17:18:29",
+      "punchOut": "17:37:45",
+      "workMinutes": 19,
+      "workHours": "0h 19m",
+      "overtimeMinutes": 0,
+      "overtimeHours": null,
+      "status": "late",
+      "note": "",
+      "punchInLocation": {
+        "lat": 12.911996102883863,
+        "lng": 77.64091832034293
+      },
+      "punchInDistance": null,
+      "punchOutLocation": {
+        "lat": 12.911991762767713,
+        "lng": 77.64091784184514
+      },
+      "punchOutDistance": null
+    },
+    {
+      "id": 2,
+      "employeeId": 1003,
+      "employeeName": "Ananya Rao",
+      "date": "2026-08-13",
+      "punchIn": "10:34:54",
+      "punchOut": "10:34:57",
+      "workMinutes": 0,
+      "workHours": "0h 0m",
+      "overtimeMinutes": 0,
+      "overtimeHours": null,
+      "status": "late",
+      "note": "",
+      "punchInLocation": {
+        "lat": 12.911997253289469,
+        "lng": 77.64091978148494
+      },
+      "punchInDistance": null,
+      "punchOutLocation": {
+        "lat": 12.911997253289469,
+        "lng": 77.64091978148494
+      },
+      "punchOutDistance": null
+    }
+  ],
   "leaveRequests": [],
   "regularizations": [],
   "payslips": [],
@@ -85,7 +134,30 @@
   "documents": [],
   "tasks": [],
   "fieldVisits": [],
-  "whatsappLog": [],
+  "whatsappLog": [
+    {
+      "id": 2,
+      "employeeId": 1003,
+      "employeeName": "Ananya Rao",
+      "phone": "9876511111",
+      "event": "punch-in",
+      "message": "Hi Ananya, your punch-in at 10:34:54 on 2026-08-13 has been recorded. - Maxim Realty",
+      "status": "skipped",
+      "detail": "WhatsApp notifications are not enabled/configured in Settings",
+      "createdAt": "2026-08-13T05:04:54.949Z"
+    },
+    {
+      "id": 1,
+      "employeeId": 1003,
+      "employeeName": "Ananya Rao",
+      "phone": "9876511111",
+      "event": "punch-in",
+      "message": "Hi Ananya, your punch-in at 17:18:29 on 2026-08-12 has been recorded. - Maxim Realty",
+      "status": "skipped",
+      "detail": "WhatsApp notifications are not enabled/configured in Settings",
+      "createdAt": "2026-08-12T11:48:29.114Z"
+    }
+  ],
   "payrollConfig": {
     "commissionEnabled": true,
     "commissionTiers": [
@@ -163,7 +235,7 @@
   },
   "counters": {
     "employeeId": 1004,
-    "attendanceId": 1,
+    "attendanceId": 3,
     "leaveId": 1,
     "regularizationId": 1,
     "payslipId": 1,
@@ -171,7 +243,7 @@
     "documentId": 1,
     "taskId": 1,
     "fieldVisitId": 1,
-    "whatsappLogId": 1,
+    "whatsappLogId": 3,
     "commissionEntryId": 1
   }
 }
