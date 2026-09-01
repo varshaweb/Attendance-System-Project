@@ -1,4 +1,4 @@
-# Maxim Realty — Employee Attendance Management System
+Employee Attendance Management System
 
 A complete, self-contained web application for tracking employee attendance —
 punch in/out with geofencing, leave, regularization, payslips, a role-based
